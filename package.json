@@ -1,0 +1,32 @@
+{
+  "name": "lorenzomolinari_website2023",
+  "version": "1.0.0",
+  "description": "Lorenzo Molinari New Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoreMolinari/LorenzoMolinari_Website2023.git"
+  },
+  "keywords": [
+    "lorenzo",
+    "molinari",
+    "website"
+  ],
+  "author": "Lorenzo Molinari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoreMolinari/LorenzoMolinari_Website2023/issues"
+  },
+  "homepage": "https://github.com/LoreMolinari/LorenzoMolinari_Website2023#readme",
+  "dependencies": {
+    "nuxt": "^3.5.2",
+    "vue": "^3.3.4"
+  }
+}

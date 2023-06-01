@@ -52,5 +52,9 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    // Configurazione del percorso di output
+    buildDir: '/dist' // Specifica il percorso desiderato per la directory di output
+  }
+  
 }

@@ -1,5 +1,7 @@
 # lorenzomolinari_website2023
 
+Created by Lorenzo Molinari with the original idea of Lucky Adogun
+
 ## Build Setup
 
 ```bash

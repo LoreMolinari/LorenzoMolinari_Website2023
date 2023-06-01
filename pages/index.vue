@@ -5,6 +5,7 @@
         <p class="egg-text">Happy Easter!</p>
       </div>
     </div>
+    <!--<AnimatedBackground class="flex-grow" />-->
     <div class="flex flex-col items-center justify-center justify-items-center m-auto">
       <img class="inline object-cover w-24 h-24 mr-2 rounded-full bg-white" @click="showEasterEgg" :src="mainPhoto" />
       <h1 class="my-5 text-lg font-bold">Hey, I'm Lorenzo 👋</h1>
@@ -45,6 +46,7 @@
 
 <script>
 import mainPhoto from '~/assets/images/LorenzoMolinari_profile.png'
+import AnimatedBackground from '@/components/AnimatedBackground.vue';
 
 export default {
   name: 'IndexPage',
@@ -72,6 +74,9 @@ export default {
         }
       }
     },
+  },
+  components: {
+    AnimatedBackground,
   },
 }
 </script>

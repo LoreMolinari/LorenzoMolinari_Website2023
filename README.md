@@ -1,70 +1,61 @@
-# lorenzomolinari_website2023
+# Lorenzo Molinari Portfolio Website 2023
 
-Created by Lorenzo Molinari with the original idea of Lucky Adogun
+This repository contains the source code of my personal portfolio website. The website was developed using Nuxt.js, a Vue.js-based framework, to enable fast and responsive page creation.
 
-## Build Setup
+## Prerequisites
 
-```bash
-# install dependencies
-$ npm install
+- Node.js (version 14 or higher)
+- NPM (version 6 or higher)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Installation
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+1. Clone the repository to your computer:
 
-# generate static project
-$ npm run generate
-```
+   git clone https://github.com/tuonome/lorenzomolinari_website2023.git
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+2. Navigate to the project directory:
 
-## Special Directories
+   cd lorenzomolinari_website2023
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+3. Install the project dependencies:
 
-### `assets`
+   npm install
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+## Available Commands
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+In the project directory, you can run the following commands:
 
-### `components`
+- Start the development server:
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+   npm run dev
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+- Build the project for production:
 
-### `layouts`
+   npm run build
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+- Start the server in production mode:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+   npm run start
 
-### `pages`
+- Generate static files for the website:
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+   npm run generate
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+- Run code linting:
 
-### `plugins`
+   npm run lint
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+## Main Dependencies
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+- @nuxtjs/axios: Library for simplified HTTP request handling.
+- @nuxtjs/pwa: Plugin to add Progressive Web App functionality to the project.
+- nuxt: Vue.js-based framework for creating universal applications.
+- vue: JavaScript library for building reactive user interfaces.
+- vue-burger-menu: Vue.js component for creating a sliding menu.
+- vue-feather-icons: SVG icon library for Vue.js.
+- vue-icons: Icon library for Vue.js.
+- vue-sequential-entrance: Plugin for adding animation effects to page transitions.
 
-### `static`
+## License
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.

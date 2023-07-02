@@ -15,18 +15,26 @@
           style="color: darkcyan;">software</span> developer & <span class="italic"
           style="color: darkcyan;">cybersecurity</span> student
       </h2>
-      <div class="flex md:flex-row lg:px-32 flex-col" style="margin-top: 20px;">
-        <p class="mb-8 md:mr-3"
+      <div class="flex md:flex-row lg:px-32 flex-col sm:flex-row buttonContainer" style="margin-top: 20px; align-content: center;">
+        <div class="flex">
+          <p class="mb-8 md:mr-3 indexButtons bs"
           style="border-color: white; border: 2px solid; border-radius: 15px; padding: 5px; font-size: large;">
-          <nuxt-link to="projects">Projects</nuxt-link>
+          <nuxt-link to="projects"><archive-icon size="1.5x" class="indexIcons"></archive-icon>Projects</nuxt-link>
         </p>
-        <p class="mb-8 md:mr-3"
+        <p class="mb-8 md:mr-3 indexButtons"
           style="border-color: white; border: 2px solid; border-radius: 15px; padding: 5px; font-size: large;"><a
-            href="https://loremolinari.hashnode.dev/" target="_blank">Blog</a></p>
-        <p class="mb-8 md:mr-3"
+            href="https://loremolinari.hashnode.dev/" target="_blank"><hash-icon size="1.5x" class="indexIcons"></hash-icon>Blog</a></p>
+        </div>
+        <div class="flex">
+          <p class="mb-8 md:mr-3 indexButtons bs"
           style="border-color: white; border: 2px solid; border-radius: 15px; padding: 5px; font-size: large;">
-          <nuxt-link to="find">Find me</nuxt-link>
+          <nuxt-link to="find"><map-pin-icon size="1.5x" class="indexIcons"></map-pin-icon>Find me</nuxt-link>
         </p>
+        <p class="mb-8 md:mr-3 indexButtons"
+          style="border-color: white; border: 2px solid; border-radius: 15px; padding: 5px; font-size: large;">
+          <nuxt-link to="cv"><user-icon size="1.5x" class="indexIcons"></user-icon>My CV</nuxt-link>
+        </p>
+        </div>
       </div>
 
       <hr class="my-10 w-full border-theme-tertiary border-dashed">
@@ -47,6 +55,7 @@
 <script>
 import mainPhoto from '~/assets/images/LorenzoMolinari_profile.png'
 import AnimatedBackground from '@/components/AnimatedBackground.vue';
+import { ArchiveIcon, MapPinIcon, HashIcon, UserIcon } from 'vue-feather-icons'
 
 export default {
   name: 'IndexPage',
@@ -77,6 +86,10 @@ export default {
   },
   components: {
     AnimatedBackground,
+    ArchiveIcon,
+    MapPinIcon,
+    HashIcon,
+    UserIcon,
   },
 }
 </script>

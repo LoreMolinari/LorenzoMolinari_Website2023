@@ -1,0 +1,36 @@
+.indexButtons{
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+@media only screen and (max-width: 600px){
+    .bs{
+        margin-right: 10px;
+    }
+    .indexButtons{
+        width: 80%;
+    }
+    .buttonContainer{
+        width: 100%;
+    }
+}
+
+.indexIcons{
+    padding: 5px;
+    display: inline;
+}
+
+.titleWorks{
+    display: flex;
+    margin-top: 20px;
+}
+
+.descriptionWorks{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.cvDoc{
+    margin: 20px;
+}

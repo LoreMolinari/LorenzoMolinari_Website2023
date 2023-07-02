@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="height: 68vh;">
     <h1 v-if="error.statusCode === 404">Page not found</h1>
     <h1 v-else>Attenzione, la pagina che stai cercando non è disponibile</h1>
     <NuxtLink to="/">Torna alla Home page</NuxtLink>

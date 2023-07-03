@@ -11,7 +11,7 @@ This repository contains the source code of my personal portfolio website. The w
 
 1. Clone the repository to your computer:
 
-   git clone https://github.com/tuonome/lorenzomolinari_website2023.git
+   git clone [https://github.com/tuonome/lorenzomolinari_website2023.git](https://github.com/LoreMolinari/LorenzoMolinari_Website2023)
 
 2. Navigate to the project directory:
 

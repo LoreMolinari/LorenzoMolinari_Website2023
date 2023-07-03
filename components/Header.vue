@@ -9,7 +9,7 @@
             <div class="hidden lg:flex">
                 <nuxt-link to="about" class="mr-4">About Me</nuxt-link>
             </div>
-            <a href="mailto:loremolinari1n@gmail.com" class="focus:outline-none lg:hidden"
+            <a href="mailto:loremolinari1@gmail.com" aria-label="Send an email to Lorenzo Molinari" class="focus:outline-none lg:hidden"
                 @click="darkMode = !darkMode"><mail-icon size="1.5x" class=""></mail-icon></a>
         </div>
     </div>

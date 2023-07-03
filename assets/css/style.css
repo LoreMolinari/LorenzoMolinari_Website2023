@@ -34,3 +34,11 @@
 .cvDoc{
     margin: 20px;
 }
+
+.edu li{
+    list-style: circle;
+}
+
+.work li{
+    list-style: circle;
+}

@@ -31,7 +31,7 @@
                     <div class="project-details p-6">
                         <h2 class="text-xl font-bold mb-2">Valtellina Virtual Museum</h2>
                         <p class="text-gray-700">Virtual Museum Project about the story of Valtellina</p>
-                        <a href="https://valtellinavirtualmuseum.netlify.app/" target="_blank"
+                        <a href="https://valtellinavirtualmuseum.webflow.io/" target="_blank"
                             class="mt-4 inline-block details text-white px-4 py-2 rounded">Dettagli</a>
                     </div>
                 </div>

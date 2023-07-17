@@ -13,8 +13,8 @@
         class="my-5 text-4xl md:text-5xl lg:text-6xl lg:px-32 xl:px-56 tracking-tighter leading-tight md:leading-none text-center font-bold">
         I am a <span style="color: darkcyan;">23</span> year old <span class="italic"
           style="color: darkcyan;">software</span> developer, <span class="italic"
-          style="color: darkcyan;">Cybersecurity</span> Graduate & <span class="italic"
-          style="color: darkcyan;">Computer Science</span> student
+          style="color: darkcyan;">Cybersecurity</span> graduate & <span class="italic"
+          style="color: darkcyan;">Computer Science</span> university student.
       </h2>
       <div class="flex md:flex-row lg:px-32 flex-col sm:flex-row buttonContainer" style="margin-top: 20px; align-content: center;">
         <div class="flex">

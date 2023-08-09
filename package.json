@@ -16,7 +16,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.25.3",
     "feather-icons": "^4.29.0",
-    "netlify-cli": "^15.8.0",
+    "netlify-cli": "^15.11.0",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
     "vue-burger-menu": "^2.0.5",
